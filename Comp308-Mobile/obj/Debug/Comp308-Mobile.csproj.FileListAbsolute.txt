@@ -1,0 +1,5 @@
+C:\Users\Tim\Desktop\Documents\GitHub\Comp308-Mobile\Comp308-Mobile\bin\Comp308-Mobile.dll
+C:\Users\Tim\Desktop\Documents\GitHub\Comp308-Mobile\Comp308-Mobile\bin\Comp308-Mobile.pdb
+C:\Users\Tim\Desktop\Documents\GitHub\Comp308-Mobile\Comp308-Mobile\obj\Debug\Comp308-Mobile.csprojResolveAssemblyReference.cache
+C:\Users\Tim\Desktop\Documents\GitHub\Comp308-Mobile\Comp308-Mobile\obj\Debug\Comp308-Mobile.dll
+C:\Users\Tim\Desktop\Documents\GitHub\Comp308-Mobile\Comp308-Mobile\obj\Debug\Comp308-Mobile.pdb
