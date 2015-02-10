@@ -1,17 +1,25 @@
-﻿<!DOCTYPE html>
+﻿<!-- Source File Name: COMP308-Mobile/index.html -->
+<!-- Author/Deveoloper: Tim Chiu - 300652823 -->
+<!-- Last Modified by: Tim Chiu -->
+<!-- Date Last Motified: 2/10/15 -->
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-    <title>Tim Chiu</title>
+    <title>Tim Chiu :D</title>
+
     <!-- CSS SECTION -->
     <link href="Content/jquery.mobile-1.4.5.min.css" rel="stylesheet" />
+    <link href="css/customTheme.css" rel="stylesheet" />
     <link href="css/mobile.css" rel="stylesheet" />
 </head>
 <body onload="init();">
 
     <!-- Home Wrapper -->
     <div data-role="page" id="home">
+
         <header data-role="header">
             <h1>Welcome to Home</h1>
             <div data-role="navbar">
@@ -26,8 +34,21 @@
         </header>
 
         <section data-role="content">
-            <p>Your Content Goes here</p>
-            <a href="#home" data-role="button" data-icon="back" data-transition="fade">Back</a>
+            <img src="images/logo.png"/>
+            <p>
+                Welcome to my Mobile Site for Comp308 - Emerging Technology
+            </p>
+            <p>
+                For Comp308 - Emerging Technology, our 2nd assignment is to create a mobile site using JQuery
+            </p>
+            <p>
+                Feel free to look around!
+            </p>
+            <ul>
+                <li>Software Engineer - Inspiring Game Developer</li>
+                <li>Motivated Game Programmer</li>
+                <li>Avid Gamer</li>
+            </ul> 
         </section>
 
         <footer data-role="footer" data-position="fixed">
@@ -65,7 +86,7 @@
     <div data-role="page" id="projects">
 
         <header data-role="header">
-            <h1>My Projects</h1>
+            <h1>Projects</h1>
             <div data-role="navbar">
                 <ul>
                     <li><a href="#home" data-icon="home" data-transition="fade">Home</a></li>
@@ -91,7 +112,7 @@
     <div data-role="page" id="services">
 
         <header data-role="header">
-            <h1>My Services</h1>
+            <h1>Services</h1>
             <div data-role="navbar">
                 <ul>
                     <li><a href="#home" data-icon="home" data-transition="fade">Home</a></li>
@@ -133,7 +154,7 @@
             <p>Social Media info Goes Here</p>
             <a href="#home" data-role="button" data-icon="back" data-transition="fade">Back</a>        
         </section>
-
+        
         <footer data-role="footer" data-position="fixed">
             <h6>© Copyright 2015 Tim Chiu. Cake is a lie :D</h6>
         </footer>
