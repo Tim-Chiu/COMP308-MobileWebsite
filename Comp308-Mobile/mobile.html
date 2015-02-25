@@ -1,7 +1,7 @@
-﻿<!-- Source File Name: COMP308-Mobile/index.html -->
+﻿<!-- Source File Name: mobile.html -->
 <!-- Author/Deveoloper: Tim Chiu - 300652823 -->
 <!-- Last Modified by: Tim Chiu -->
-<!-- Date Last Motified: 2/10/15 -->
+<!-- Date Last Motified: 25/2/15 -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -28,7 +28,7 @@
                     <li><a href="#aboutMe" data-icon="user" data-transition="fade">About Me</a></li>
                     <li><a href="#projects" data-icon="gear" data-transition="fade">Projects</a></li>
                     <li><a href="#services" data-icon="grid" data-transition="fade">Services</a></li>
-                    <li><a href="#socialMedia" data-icon="star" data-transition="fade">Social Media</a></li>
+                    <li><a href="#contactMe" data-icon="star" data-transition="fade">Contact Me</a></li>
                 </ul>
             </div>
         </header>
@@ -49,6 +49,11 @@
                 <li>Motivated Game Programmer</li>
                 <li>Avid Gamer</li>
             </ul>
+
+                    <div id="trivia-city" class="trivia ui-content" data-role="popup" data-position-to="window" data-tolerance="50,30,30,30" data-theme="a">
+                        <a href="#" data-rel="back" class="ui-btn ui-btn-right ui-btn-b ui-btn-icon-notext ui-icon-delete ui-corner-all">Close</a>
+                        <p>Here some text.</p>
+                    </div> 
         </section>
 
         <footer data-role="footer" data-position="fixed">
@@ -67,7 +72,7 @@
                     <li><a href="#aboutMe" class="ui-btn-active ui-state-persist" data-icon="user" data-transition="fade">About Me</a></li>
                     <li><a href="#projects" data-icon="gear" data-transition="fade">Projects</a></li>
                     <li><a href="#services" data-icon="grid" data-transition="fade">Services</a></li>
-                    <li><a href="#socialMedia" data-icon="star" data-transition="fade">Social Media</a></li>
+                    <li><a href="#contactMe" data-icon="star" data-transition="fade">Contact Me</a></li>
                 </ul>
             </div>
         </header>
@@ -113,7 +118,7 @@
                     <li><a href="#aboutMe" data-icon="user" data-transition="fade">About Me</a></li>
                     <li><a href="#projects" class="ui-btn-active ui-state-persist" data-icon="gear" data-transition="fade">Projects</a></li>
                     <li><a href="#services" data-icon="grid" data-transition="fade">Services</a></li>
-                    <li><a href="#socialMedia" data-icon="star" data-transition="fade">Social Media</a></li>
+                    <li><a href="#contactMe" data-icon="star" data-transition="fade">Contact Me</a></li>
                 </ul>
             </div>
         </header>
@@ -203,7 +208,7 @@
                     <li><a href="#aboutMe" data-icon="user" data-transition="fade">About Me</a></li>
                     <li><a href="#projects" data-icon="gear" data-transition="fade">Projects</a></li>
                     <li><a href="#services" class="ui-btn-active ui-state-persist" data-icon="grid" data-transition="fade">Services</a></li>
-                    <li><a href="#socialMedia" data-icon="star" data-transition="fade">Social Media</a></li>
+                    <li><a href="#contactMe" data-icon="star" data-transition="fade">Contact Me</a></li>
                 </ul>
             </div>
         </header>
@@ -238,55 +243,71 @@
         </footer>
     </div>
 
-    <!-- Social Media Wrapper -->
-    <div data-role="page" id="socialMedia">
+    <!-- Contact Me Wrapper -->
+    <div data-role="page" id="contactMe">
 
         <header data-role="header">
-            <h1>Social Media</h1>
+            <h1>Contact Me</h1>
             <div data-role="navbar">
                 <ul>
                     <li><a href="#home" data-icon="home" data-transition="fade">Home</a></li>
                     <li><a href="#aboutMe" data-icon="user" data-transition="fade">About Me</a></li>
                     <li><a href="#projects" data-icon="gear" data-transition="fade">Projects</a></li>
                     <li><a href="#services" data-icon="grid" data-transition="fade">Services</a></li>
-                    <li><a href="#socialMedia" class="ui-btn-active ui-state-persist" data-icon="star" data-transition="fade">Social Media</a></li>
+                    <li><a href="#contactMe" class="ui-btn-active ui-state-persist" data-icon="star" data-transition="fade">Contact Me</a></li>
                 </ul>
             </div>
         </header>
 
         <section data-role="content">
             <img src="images/logo.png" />
-            <div>
-                <a href="https://www.youtube.com/user/Godiyy" class="item">
-                    <img src="images/youtubeIcon.png" />
-                    <label>YouTube</label>
-                </a>
-                <a href="https://twitter.com/GodlyVG" class="item">
-                    <img src="images/twitterIcon.png" />
-                    <label>Twitter</label>
-                </a>
-                <a href="https://www.linkedin.com/in/chiutim" class="item">
-                    <img src="images/linkedinIcon.png" />
-                    <label>Linkedin</label>
-                </a>
-                <a href="#" class="item">
-                    <img src="images/facebookIcon.png" />
-                    <label>FaceBook</label>
-                </a>
-                <a href="mailto:godlyvg@gmail.com" class="item">
-                    <img src="images/emailIcon.png" />
-                    <label>Email</label>
-                </a>
+            <div data-role="content">
+                <div data-role="fieldcontain" data-controltype="textinput">
+                    <label for="textinput3">
+                        Name
+                    </label>
+                    <input name="" id="textinput3" placeholder="" value="" type="text">
+                </div>
+                <div data-role="fieldcontain" data-controltype="textinput">
+                    <label for="textinput4">
+                        E-mail
+                    </label>
+                    <input name="" id="textinput4" placeholder="" value="" type="text">
+                </div>
+                <div data-role="fieldcontain" data-controltype="textarea">
+                    <label for="textarea3">
+                        Message
+                    </label>
+                    <textarea name="" id="textarea3" placeholder=""></textarea>
+                </div>
+                <input type="submit" value="Submit">
             </div>
-
+            <br>
+            <br>
+            <br>
             <a href="#home" data-role="button" data-icon="back" data-transition="fade">Back</a>
         </section>
 
         <footer data-role="footer" data-position="fixed">
             <h6>© Copyright 2015 Tim Chiu. Cake is a lie :D</h6>
+            <a href="https://www.youtube.com/user/Godiyy" class="item">
+                <img src="images/youtubeIcon2.png" />
+                <label>YouTube</label>
+            </a>
+            <a href="https://twitter.com/GodlyVG" class="item">
+                <img src="images/twitterIcon2.png" />
+                <label>Twitter</label>
+            </a>
+            <a href="https://www.linkedin.com/in/chiutim" class="item">
+                <img src="images/linkedinIcon2.png" />
+                <label>Linkedin</label>
+            </a>
+            <a href="#" class="item">
+                <img src="images/facebookIcon2.png" />
+                <label>FaceBook</label>
+            </a>
         </footer>
     </div>
-
     <!-- JavaScript Section -->
     <script src="Scripts/jquery-1.8.0.min.js"></script>
     <script src="Scripts/jquery.mobile-1.4.5.min.js"></script>
