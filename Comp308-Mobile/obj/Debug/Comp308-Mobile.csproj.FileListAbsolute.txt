@@ -13,3 +13,8 @@ C:\Users\Tim\Desktop\Documents\GitHub\COMP308-MobileWebsite\Comp308-Mobile\bin\C
 C:\Users\Tim\Desktop\Documents\GitHub\COMP308-MobileWebsite\Comp308-Mobile\obj\Debug\Comp308-Mobile.csprojResolveAssemblyReference.cache
 C:\Users\Tim\Desktop\Documents\GitHub\COMP308-MobileWebsite\Comp308-Mobile\obj\Debug\Comp308-Mobile.dll
 C:\Users\Tim\Desktop\Documents\GitHub\COMP308-MobileWebsite\Comp308-Mobile\obj\Debug\Comp308-Mobile.pdb
+C:\Users\Tim Chiu\Documents\GitHub\COMP308-MobileWebsite\Comp308-Mobile\bin\Comp308-Mobile.dll
+C:\Users\Tim Chiu\Documents\GitHub\COMP308-MobileWebsite\Comp308-Mobile\bin\Comp308-Mobile.pdb
+C:\Users\Tim Chiu\Documents\GitHub\COMP308-MobileWebsite\Comp308-Mobile\obj\Debug\Comp308-Mobile.csprojResolveAssemblyReference.cache
+C:\Users\Tim Chiu\Documents\GitHub\COMP308-MobileWebsite\Comp308-Mobile\obj\Debug\Comp308-Mobile.dll
+C:\Users\Tim Chiu\Documents\GitHub\COMP308-MobileWebsite\Comp308-Mobile\obj\Debug\Comp308-Mobile.pdb
